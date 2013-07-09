@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.estima.exame.NovaSerie&apos; to &apos;NovaSerieActivity&apos;&#x0D;&#x0A;- Original project: &apos;Exame&apos;&#x0D;&#x0A;- Original element: &apos;com.estima.exame.NovaSerie&apos;&#x0D;&#x0A;- Renamed element: &apos;com.estima.exame.NovaSerieActivity&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;NovaSerie&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.estima.exame{NovaSerie.java[NovaSerie" matchStrategy="1" name="NovaSerieActivity" qualified="false" references="true" similarDeclarations="false" stamp="1373398265212" textual="false" version="1.0"/>
+</session>

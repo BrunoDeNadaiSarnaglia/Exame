@@ -2,7 +2,9 @@ package com.estima.exame;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
+import android.view.View;
 
 public class MainActivity extends Activity {
 
@@ -20,4 +22,18 @@ public class MainActivity extends Activity {
         return true;
     }
     
+    public void GuardarTreino(View view){
+    	Intent intent = new Intent(this, GuardarTreinoActivity.class);
+    	startActivity(intent);
+    }
+    
+    public void NovaSerie(View view){
+    	Intent intent = new Intent(this, NovaSerieActivity.class);
+    	startActivity(intent);
+    }
+    
+    public void AnalisarSerie(View view){
+    	Intent intent = new Intent(this, AnalisarSerieActivity.class);
+    	startActivity(intent);
+    }
 }

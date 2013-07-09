@@ -1,0 +1,265 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+ 
+    <!-- 3 colunas -->
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+		
+        <EditText android:id="@+id/exercicio1"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/exercicio1" />
+        
+        <EditText android:id="@+id/series1"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/series1" 
+        android:inputType="number" />
+        
+        <EditText android:id="@+id/repeticoes1"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/repeticoes1" 
+        android:inputType="number" />
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+		
+        <EditText android:id="@+id/exercicio2"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/exercicio2" />
+        
+        <EditText android:id="@+id/series2"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/series2" 
+        android:inputType="number" />
+        
+        <EditText android:id="@+id/repeticoes2"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/repeticoes2" 
+        android:inputType="number" />
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+		
+        <EditText android:id="@+id/exercicio3"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/exercicio3" />
+        
+        <EditText android:id="@+id/series3"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/series3" 
+        android:inputType="number" />
+        
+        <EditText android:id="@+id/repeticoes3"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/repeticoes3" 
+        android:inputType="number" />
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+		
+        <EditText android:id="@+id/exercicio4"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/exercicio3" />
+        
+        <EditText android:id="@+id/series4"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/series3" 
+        android:inputType="number" />
+        
+        <EditText android:id="@+id/repeticoes4"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/repeticoes3" 
+        android:inputType="number" />
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+		
+        <EditText android:id="@+id/exercicio5"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/exercicio3" />
+        
+        <EditText android:id="@+id/series5"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/series3" 
+        android:inputType="number" />
+        
+        <EditText android:id="@+id/repeticoes5"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/repeticoes3" 
+        android:inputType="number" />
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+		
+        <EditText android:id="@+id/exercicio6"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/exercicio3" />
+        
+        <EditText android:id="@+id/series6"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/series3" 
+        android:inputType="number" />
+        
+        <EditText android:id="@+id/repeticoes6"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/repeticoes3" 
+        android:inputType="number" />
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+		
+        <EditText android:id="@+id/exercicio7"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/exercicio3" />
+        
+        <EditText android:id="@+id/series7"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/series3" 
+        android:inputType="number" />
+        
+        <EditText android:id="@+id/repeticoes7"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/repeticoes3" 
+        android:inputType="number" />
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+		
+        <EditText android:id="@+id/exercicio3"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/exercicio3" />
+        
+        <EditText android:id="@+id/series3"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/series3" 
+        android:inputType="number" />
+        
+        <EditText android:id="@+id/repeticoes3"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/repeticoes3" 
+        android:inputType="number" />
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+		
+        <EditText android:id="@+id/exercicio3"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/exercicio3" />
+        
+        <EditText android:id="@+id/series3"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/series3" 
+        android:inputType="number" />
+        
+        <EditText android:id="@+id/repeticoes3"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/repeticoes3" 
+        android:inputType="number" />
+    </TableRow>
+    
+    <TableRow 
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+        
+        <Button
+        	android:layout_weight="1"
+        	android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+        	android:text="@string/botao_salvar_serie" 
+        	android:onClick="sendMessage"/> <!-- Chamar método no NovaSerieActivity -->
+    </TableRow>
+    
+ 
+</TableLayout>

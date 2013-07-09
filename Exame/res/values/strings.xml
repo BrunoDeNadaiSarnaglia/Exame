@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Exame</string>
+    <string name="app_name">My Second App</string>
     <string name="action_settings">Settings</string>
+    <string name="button_send">Send</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="title_activity_display_message">My Message</string>
     <string name="hello_world">Hello world!</string>
-
+    <string name="title_activity_nova_serie">NovaSerieActivity</string>
+    
+    
+    <string name="botao_nova_serie">Nova Série</string>
+    <!-- Adicionados para a NovaSerieActivity -->
+	<!-- Linha1 -->
+	<string name="exercicio1">Exercício 1</string>
+	<string name="series1">Séries</string>
+	<string name="repeticoes1">Reps</string>
+	<!-- Linha2 -->
+	<string name="exercicio2">Exercício 2</string>
+	<string name="series2">Séries</string>
+	<string name="repeticoes2">Reps</string>
+	<!-- Linha3 -->
+	<string name="exercicio3">Exercício 3</string>
+	<string name="series3">Séries</string>
+	<string name="repeticoes3">Reps</string>
+	<!-- Linha4 -->
+	<string name="botao_salvar_serie">Salvar série</string>
+	
 </resources>

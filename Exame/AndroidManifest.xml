@@ -22,6 +22,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.estima.exame.GuardarTreinoActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.estima.exame.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.estima.exame.NovaSerieActivity"
+            android:label="@string/title_activity_nova_serie" >
+        </activity>
+        <activity
+            android:name="com.estima.exame.AnalisarSerieActivity" >
+        </activity>
     </application>
 
 </manifest>
